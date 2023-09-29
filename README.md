@@ -3,7 +3,7 @@
 # 📗 Table of Contents
 
 - [📗 Table of Contents](#-table-of-contents)
-- [📖  Math Magicians ](#--Math_Magicians-)
+- [📖  BookStore ](#--BookStore-)
   - [🛠 Built With ](#-built-with-)
     - [Tech Stack ](#tech-stack-)
     - [Live Demo ](#LiveDemo-)
@@ -21,14 +21,21 @@
   - [📝 License ](#-license-)
 
 <!-- PROJECT DESCRIPTION -->
-# 📖  Math Magicians <a name="Math_Magicians"></a>
+# 📖  BookStore <a name="BookStore"></a>
 
-> 'Math magicians' is a website for all fans of mathematics. It's a Single Page App (SPA) that allows users to make simple calculations and read a random computer-related quote.
+> Bookstore is a React/Redux applet with the following functionalities
+
+Display a list of books
+
+Add a book
+
+Remove a selected book
+
 
 ![](calculator.png)
 
 ## 🛠 Built With <a name="built-with"></a>
-- Technology: HTML, CSS & JS and RAECT
+- Technology: HTML, CSS, JS, RAECT & Redux
 - Tools: VS Code, GIT, GITHUB
 
 ### Tech Stack <a name="tech-stack"></a>
@@ -39,14 +46,14 @@
     <li><a href="https://developer.mozilla.org/en-US/docs/Web/CSS">CSS</a></li>
     <li><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript">JavaScript</a></li>
     <li><a href="https://react.dev/">React</a></li>
-    <li><a href="https://vitejs.dev/">Vite</a></li>
+    <li><a href="https://redux-toolkit.js.org/">Redux</a></li>
   </ul>
 </details>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ### Live Demo <a name="Live-Demo"></a>
-[https://math-magicians-applet.onrender.com](https://math-magicians-applet.onrender.com)
+[coming soon](#)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -54,7 +61,7 @@
 
 ### Key Features <a name="key-features"></a>
 
-Just a simple calculator, nohting fancy.
+Seemless book storage, retrieval and removal
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -76,8 +83,8 @@ Clone this repository to your desired folder:
 Example commands:
 
 ```sh
-git clone https://github.com/Goldinium/math_magicians.git
-cd math_magicians
+git clone https://github.com/Goldinium/Bookstore.git
+cd Bookstore
 npm install # to install dependencies
 ```
 
@@ -86,7 +93,7 @@ npm install # to install dependencies
 To run the project on your local machine, execute the following command:
 
 ```sh
-npm run dev
+npm run build
 ```
 
 
@@ -124,7 +131,7 @@ npx eslint .
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- Add math logic to enable arithmetics
+- Add book functionality
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -134,7 +141,7 @@ npx eslint .
 ## 🤝 Contributing <a name="contributing"></a>
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](https://github.com/Goldinium/math_magicians/issues).
+Feel free to check the [issues page](https://github.com/Goldinium/Bookstore/issues).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
