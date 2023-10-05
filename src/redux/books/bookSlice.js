@@ -1,5 +1,4 @@
 import { createSlice } from '@reduxjs/toolkit';
-import { v4 as uuidv4 } from 'uuid';
 
 const initialState = {
   books: [],
@@ -13,7 +12,7 @@ export const bookSlice = createSlice({
       state.books = [
         ...state.books,
         {
-          id: uuidv4(),
+          id: crypto.randomUUID(),
           title: action.payload.title,
           author: action.payload.author,
         },
