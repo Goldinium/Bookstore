@@ -1,5 +1,5 @@
-export default function categories() {
+export default function Categories() {
   return (
-    <p />
+    <p>im categories</p>
   );
 }

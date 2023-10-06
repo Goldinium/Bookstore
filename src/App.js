@@ -1,36 +1,29 @@
-import { Route, Routes } from 'react-router-dom';
-import home from './components/home';
-import categories from './components/categories';
-import logo from './logo.svg';
+import { Link, Route, Routes } from 'react-router-dom';
+import Home from './components/home';
+import Categories from './components/categories';
+import BookView from './components/bookList';
 import './App.css';
 
 function App() {
   return (
     <>
+      <nav>
+        <ul>
+          <li>
+            <Link to="/">Home</Link>
+          </li>
+          |
+          <li>
+            <Link to="/Categories">Categories</Link>
+          </li>
+        </ul>
+      </nav>
       <Routes>
-        <Route path="/" element={home} />
-        <Route path="/categories" element={categories} />
+        <Route path="/" element={<Home />} />
+        <Route path="/Categories" element={<Categories />} />
       </Routes>
-      <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <p>
-            Edit
-            {' '}
-            <code>src/App.js</code>
-            {' '}
-            and save to reload.
-          </p>
-          <a
-            className="App-link"
-            href="https://reactjs.org"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Learn React
-          </a>
-        </header>
-      </div>
+      <span>text</span>
+      <BookView />
     </>
   );
 }
