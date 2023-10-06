@@ -1,5 +1,7 @@
-export default function home() {
+export default function Home() {
   return (
-    <p />
+    <p>
+      im home
+    </p>
   );
 }
