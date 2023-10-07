@@ -1,30 +1,21 @@
-import { Link, Route, Routes } from 'react-router-dom';
-import Home from './components/home';
-import Categories from './components/categories';
-import BookView from './components/bookList';
-import './App.css';
+import { Route, Routes } from 'react-router-dom';
+import Books from './components/books/Books';
+import Categories from './components/categories/Categories';
+import Header from './components/Header/Header';
 
 function App() {
   return (
-    <>
-      <nav>
-        <ul>
-          <li>
-            <Link to="/">Home</Link>
-          </li>
-          |
-          <li>
-            <Link to="/Categories">Categories</Link>
-          </li>
-        </ul>
-      </nav>
-      <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/Categories" element={<Categories />} />
-      </Routes>
-      <span>text</span>
-      <BookView />
-    </>
+    <div className="App">
+      <div className="outer-container">
+        <div className="container">
+          <Header />
+          <Routes>
+            <Route path="/" element={<Books />} />
+            <Route path="/categories" element={<Categories />} />
+          </Routes>
+        </div>
+      </div>
+    </div>
   );
 }
 

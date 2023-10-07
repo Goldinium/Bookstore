@@ -6,7 +6,6 @@
 - [📖  BookStore ](#--BookStore-)
   - [🛠 Built With ](#-built-with-)
     - [Tech Stack ](#tech-stack-)
-    - [Live Demo ](#LiveDemo-)
     - [Key Features ](#key-features-)
   - [💻 Getting Started ](#-getting-started-)
     - [Prerequisites](#prerequisites)
@@ -52,10 +51,6 @@ Remove a selected book
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-### Live Demo <a name="Live-Demo"></a>
-[coming soon](#)
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- Features -->
 
